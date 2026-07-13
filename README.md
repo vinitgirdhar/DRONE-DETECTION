@@ -1,4 +1,4 @@
-# 🛸 DRONE DETECTION — YOLO11n + Real-Time CPU Optimization
+#  DRONE DETECTION — YOLO11n + Real-Time CPU Optimization
 
 Drone-vs-bird aerial detection system: a custom-trained **YOLO11n** model, a **FastAPI** inference backend, a **Next.js** tactical dashboard — and a fully measured **CPU inference optimization pipeline that took detection from 13.7 FPS to 52+ FPS (×3.8) on a laptop CPU, no GPU required**.
 
