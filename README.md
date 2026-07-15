@@ -46,7 +46,7 @@ Drone-vs-bird aerial detection system: a custom-trained **YOLO11n** model, a **F
 | Max accuracy, real-time | OpenVINO @640 + 3-thread pipeline | **33.5** |
 | Max speed | INT8 ONNX @416 + 3-thread pipeline | **52.4** |
 
-📊 Full report with methodology: [OPTIMIZATION_RESULTS.md](OPTIMIZATION_RESULTS.md)
+ Full report with methodology: [OPTIMIZATION_RESULTS.md](OPTIMIZATION_RESULTS.md)
 🎬 Video proof: [test_assets/demo_before.mp4](test_assets/demo_before.mp4) · [test_assets/demo_after.mp4](test_assets/demo_after.mp4) (FPS counter burned into every frame)
 
 | Before (PyTorch, single-thread) | After (INT8 + 416 + 3 threads) |
